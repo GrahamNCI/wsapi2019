@@ -1,0 +1,21 @@
+Developing my Project Planner
+
+So have working the ability to list our current months and display for 12 months into the future.
+
+Issues with adding additional children to parent class is the parent overwirtes the childrens text, solved the months porblem by taking out the parent div and placing in main body text anything not related to displaying the Months.
+
+SO going to try to change this first by using select for the class Month rather than div. 
+
+Other way which needs deeper understanding of the DOM is to use append child and using nodes. 
+
+Next Step once have the text associated with each month are following features: 
+
+[1] Name the project 
+
+[2] Select the project length i.e. by days, by weeks, by months 
+
+[3] Save project data - local storage first - look at extending to actuall database but not necessary yet
+
+[4] want to be able to click on milestones and move around - drap and drop 
+
+[5] ability to change the colour scheme - lets understand colour groups and how to switch that out in 

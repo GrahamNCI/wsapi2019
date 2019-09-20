@@ -1,0 +1,45 @@
+html {
+
+  color: darkblue;
+  margin: 1%;
+  max-height: 100%;
+
+}
+
+body {
+
+  width: 95%;
+  background-color: azure;
+  text-align: justify;
+  padding: 1%;
+}
+
+header {
+  text-align: center;
+  float: left;
+}
+
+article {
+  clear: both;
+}
+
+p {
+  padding: 1%;
+}
+
+footer {
+  width: inherit;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1%;
+  font-size: 0.6em;
+}
+
+hr {
+  border-color: coral;
+}
+
+img {
+  float: right;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript: Functions</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+
+    <img src="images/logo.png" width=10%>
+    <h1> "Testing Planning Calendar"</h1>
+    <p> </p>
+    <hr>
+    <br>
+
+    <! Updates the class rather than span tag -->
+        <span class="Debug"> Debug Test output </span>
+        <button onclick="mySave()"> Save </button>
+        <button onclick="myReset()"> Reset </button>
+        <h2 class="Year"> Test </h2>
+
+        <hr>
+
+        <! Using heading for year as changing div as parent class="year" overwrites the child divs ??? - By 12 Months - maybe add month, week selection later -->
+            <header>
+
+                <div class="Month"> Month1 </div>
+                <div class="Month"> Month2 </div>
+                <div class="Month"> Month3 </div>
+                <div class="Month"> Month4 </div>
+                <div class="Month"> Month5 </div>
+                <div class="Month"> Month6 </div>
+                <div class="Month"> Month7 </div>
+                <div class="Month"> Month8 </div>
+                <div class="Month"> Month9 </div>
+                <div class="Month"> Month10 </div>
+                <div class="Month"> Month11 </div>
+                <div class="Month"> Month12 </div>
+                <aside class="Goals"> Project Goals
+
+                </aside>
+            </header>
+
+            <article>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="Action" contenteditable=true> Action </div>
+                <div class="COS" contenteditable=true> List the Critera of Success </div>
+
+            </article>
+
+
+
+</body>
+<! Let page load before script otherwise use defer or async - once working (Data Poplation needs to happen first) -->
+    <footer>
+
+    </footer>
+    <script src="scripts/script.js"></script>
+
+</html>

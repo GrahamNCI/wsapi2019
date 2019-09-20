@@ -1,0 +1,63 @@
+html {
+    background-color: whitesmoke;
+}
+
+body {
+    max-width: 297 mm;
+    width: 95%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+header {
+    float: none;
+}
+
+article {
+    clear: both;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
+}
+
+button {
+    float: left;
+    margin: 1%;
+}
+
+.Month,
+.Action,
+.Goals,
+.COS {
+    float: left;
+    width: 5.8999%;
+    padding: .6%;
+    margin: 0.005%;
+    border-style: solid;
+    text-align: center;
+    background-color: azure;
+}
+
+.Action {
+    font-size: 0.5em;
+    text-emphasis:
+}
+
+.Month:hover {
+    color: aliceblue;
+    background-color: black;
+    border-style: double;
+}
+
+.COS {
+    font-size: 0.5rem;
+}
+
+img {
+    width: 40px;
+    float: left;
+    padding: 0.5%;
+}
